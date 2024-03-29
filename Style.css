@@ -1,0 +1,8 @@
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap; /* Permitir envolver las tarjetas en múltiples líneas si es necesario */
+    justify-content: space-around; /* Distribuir el espacio alrededor de las tarjetas */
+    align-items: flex-start; /* Alinear las tarjetas en la parte superior del contenedor */
+    padding: 20px; /* Espacio interior alrededor del contenedor */
+    gap: 20px; /* Espacio entre las tarjetas */
+}
